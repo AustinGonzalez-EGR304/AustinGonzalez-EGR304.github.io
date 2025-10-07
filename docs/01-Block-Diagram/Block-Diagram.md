@@ -10,4 +10,4 @@ My segment of the project focuses on the water distribution system, which is res
 
 
 ## Block Diagram 
-![ Indivial Block diagram ](docs\01-Block-Diagram\Block Diagram-AMG.drawio.png)
+![ Indiviual Block diagram ](Block Diagram-AMG.drawio.png)
