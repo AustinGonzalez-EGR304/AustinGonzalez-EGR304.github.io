@@ -6,19 +6,8 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
-
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+My segment of the project focuses on the water distribution system, which is responsible for delivering water to the individual plants. This will be achieved using a MOSFET-controlled 9V submersible pump. The system will also include an indicator light to display any potential fault conditions. Additionally, I am implementing four dedicated communication channels to enable both the reception of information from teammates and the passing of messages through the system to others.
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
-
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+## Block Diagram 
+![ Indivial Block diagram ](docs\01-Block-Diagram\Block Diagram-AMG.drawio.png)
