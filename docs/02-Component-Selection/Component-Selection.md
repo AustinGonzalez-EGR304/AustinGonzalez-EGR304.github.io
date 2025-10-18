@@ -3,11 +3,11 @@ title: Component Selection
 ---
 ### AOTF2618L
 
-![](docs\02-Component-Selection\AOTF2618L.JPG)
+![](C:\onedrive\Desktop\EGR304\AustinGonzalez-EGR304.github.io-1\docs\02-Component-Selection\AOTF2618L.JPG)
 
 **30V • 100A • 0.0028Ω RDS(on) @ 4.5V**
 
-* ~$1.20–$2.00 each  
+* ~$1.20 to $2.00 each  
 * [Datasheet](https://aosmd.com/res/data_sheets/AOTF2618L.pdf)
 
 | Pros | Cons |
@@ -23,7 +23,7 @@ title: Component Selection
 
 **60V • 32A • 0.035Ω RDS(on) @ 5V**
 
-* ~$1–$2 each  
+* ~$1 to $2 each  
 * [Datasheet](https://www.onsemi.com/pdf/datasheet/fqp30n06l-d.pdf)
 
 | Pros | Cons |
@@ -55,7 +55,7 @@ title: Component Selection
 
 **55V • 47A • 0.022Ω RDS(on) @ 5V**
 
-* ~$2–$4 each  
+* ~$2 to $4 each  
 * [Datasheet](https://www.infineon.com/dgdl/irlz44n.pdf?fileId=5546d462533600a40153563b9b7a262f)
 
 | Pros | Cons |
@@ -71,7 +71,7 @@ title: Component Selection
 
 **60V • 30A • 0.047Ω RDS(on) @ 4.5V**
 
-* ~$1.50–$2.50 each  
+* ~$1.50 to $2.50 each  
 * [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/843/RFP30N06LE_RF1S30N06LESM.pdf)
 
 | Pros | Cons |
@@ -87,7 +87,7 @@ title: Component Selection
 
 **60V • 30A • 0.025Ω RDS(on) @ 5V**
 
-* ~$2–$3 each  
+* ~$2 to $3 each  
 * [Datasheet](https://www.st.com/resource/en/datasheet/stp36nf06l.pdf)
 
 | Pros | Cons |
