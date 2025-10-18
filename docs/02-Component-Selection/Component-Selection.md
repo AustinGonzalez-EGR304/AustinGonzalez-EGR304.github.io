@@ -1,58 +1,98 @@
 ---
-title: Component Selection Example
+title: Component Selection 
+---
+### AOTF2618L
+
+![](image_placeholder.png)
+
+**30V • 100A • 0.0028Ω RDS(on) @ 4.5V**
+
+* ~$1.20–$2.00 each  
+* [Datasheet](https://aosmd.com/res/data_sheets/AOTF2618L.pdf)
+
+| Pros | Cons |
+|------|------|
+| Extremely low RDS(on) | Harder to source locally |
+| Excellent for higher stall motors/pumps | Typically used in SMD, TH versions rarer |
+| Logic-level gate drive | May require heatsinking under high load |
 ---
 
-## Examples
+### FQP30N06L
 
-### Style 1
+![](image_placeholder.png)
 
-> This is the example found in the assignment, uses more html
+**60V • 32A • 0.035Ω RDS(on) @ 5V**
 
-*Table 1: Example component selection*
+* ~$1–$2 each  
+* [Datasheet](https://www.onsemi.com/pdf/datasheet/fqp30n06l-d.pdf)
 
-**External Clock Module**
+| Pros | Cons |
+|------|------|
+| Fully enhanced at 4.5–5V gate | Higher RDS(on) than newer FETs |
+| Common, cheap, and available | TO-220 is large physically |
+| Great for 9–12V motors/pumps | May need heatsink at high duty |
+---
 
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+### IRLZ34N
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+![](image_placeholder.png)
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**55V • 30A • 0.04Ω RDS(on) @ 5V**
 
-### Style 2
+* ~$2 each  
+* [Datasheet](https://www.infineon.com/dgdl/irlz34n.pdf?fileId=5546d462533600a40153563b9b7ac710)
 
-> Also acceptable, more markdown friendly
+| Pros | Cons |
+|------|------|
+| Good balance of low RDS(on) and driveability | Not as common as IRLZ44N |
+| Lower gate charge than IRLZ44N | Slightly more loss vs IRLZ44N |
+| Stable switch for medium current loads | |
+---
 
-**External Clock Module**
+### IRLZ44N
 
-1. XC1259TR-ND surface mount crystal
+![](image_placeholder.png)
 
-    ![](image1.png)
+**55V • 47A • 0.022Ω RDS(on) @ 5V**
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+* ~$2–$4 each  
+* [Datasheet](https://www.infineon.com/dgdl/irlz44n.pdf?fileId=5546d462533600a40153563b9b7a262f)
 
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+| Pros | Cons |
+|------|------|
+| Extremely common and proven reliable | High gate charge (needs stronger drive at high PWM) |
+| Runs cool under load | Oversized for tiny motors |
+| Great for 9V/12V inductive loads | |
+---
 
-1. CTX936TR-ND surface mount oscillator
+### RFP30N06LE
 
-    ![](image3.png)
+![](image_placeholder.png)
 
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+**60V • 30A • 0.047Ω RDS(on) @ 4.5V**
 
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+* ~$1.50–$2.50 each  
+* [Datasheet](https://www.onsemi.com/pdf/datasheet/rfp30n06le-d.pdf)
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+| Pros | Cons |
+|------|------|
+| Lower dissipation at 4.5V than many older FETs | Less stocked than IRL series |
+| Fully logic-level compatible | Slightly higher RDS(on) than IRLZ44N |
+| Easy alternative to FQP30N06L | |
+---
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+### STP36NF06L
+
+![](image_placeholder.png)
+
+**60V • 30A • 0.025Ω RDS(on) @ 5V**
+
+* ~$2–$3 each  
+* [Datasheet](https://www.st.com/resource/en/datasheet/stp36nf06l.pdf)
+
+| Pros | Cons |
+|------|------|
+| Automotive-grade ruggedness | Slightly more expensive |
+| Very strong for inductive loads | Harder to find in hobby stores |
+| Good thermals, safe for pumps/motors | |
+---
