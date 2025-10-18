@@ -96,3 +96,51 @@ title: Component Selection
 | Very strong for inductive loads | Harder to find in hobby stores |
 | Good thermals, safe for pumps/motors | |
 ---
+### Pumps
+### Adafruit 4546 (Mini Submersible Pump)
+
+![](4546 pump.JPG)
+
+**3V • ~100mA • Low head / small flow (micro-pump class)**
+
+* ~\$7.95 each  
+* [Product Page](https://www.adafruit.com/product/4546)
+
+| Pros | Cons |
+|------|------|
+| Extremely compact | Very small flow rate |
+| Easy to prototype with | Limited head pressure|
+| Quiet operation | Limited head pressure |
+---
+
+### Adafruit Peristaltic Liquid Pump (ID: 1150)
+
+![](peristaltic pump.jpg)
+
+**5–6V • ~500mA • ~100mL/min (≈1.6 GPH) • Peristaltic**
+
+* ~\$24.95 each  
+* [Product Page](https://www.adafruit.com/product/1150)
+
+| Pros | Cons |
+|------|------|
+| Fluid only touches tubing (sterile / clean) | Far below 30 GPH target |
+| Self-priming & reversible | Expensive |
+| Would be fun to use | Requires narrow tubing; adapters for 1/4" needed |
+---
+
+### Olimex Micro Water Pump
+
+![](MICRO-WATER-PUMP_web(640x640).jpg)
+
+**3–12V • up to 1–2 L/min (≈16–32 GPH) • ~1.5A draw**
+
+* ~\$3.52 each  
+* [Product Page](https://www.olimex.com/Products/Components/Misc/MICRO-WATER-PUMP/)
+
+| Pros | Cons |
+|------|------|
+| Capable of reaching 30 GPH target | 3mm outlet → needs adapter for 1/4" tubing |
+| Works at 9V from supply | Flow drops quickly with head |
+| Extremely inexpensive | No built-in filtering |
+---
