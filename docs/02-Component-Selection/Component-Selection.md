@@ -96,6 +96,13 @@ title: Component Selection
 | Very strong for inductive loads | Harder to find in hobby stores |
 | Good thermals, safe for pumps/motors | |
 ---
+
+### Choice:
+Option 1: AOFT2618L
+# Reason:
+It is a class-supplied MOSFET that can perform the duties required for this project. If something were to fail during prototyping, it would be much easier to replace with minimal lead time. The cost of the component is negligible at this stage because the pricing of similar components is nearly identical. If produced on a mass scale, cost reduction efforts would focus on optimizing price-to-performance.
+
+
 ### Pumps
 ### Adafruit 4546 (Mini Submersible Pump)
 
@@ -120,7 +127,7 @@ title: Component Selection
 **5–6V • ~500mA • ~100mL/min (≈1.6 GPH) • Peristaltic**
 
 * ~\$24.95 each  
-* [Product Page](https://www.adafruit.com/product/1150)
+* [Product Page](https://www.adafruit.com/product/3910)
 
 | Pros | Cons |
 |------|------|
@@ -144,3 +151,9 @@ title: Component Selection
 | Works at 9V from supply | Flow drops quickly with head |
 | Extremely inexpensive | No built-in filtering |
 ---
+
+
+### Choice:
+Option 1: Olimex Micro Water Pump
+# Reason:
+This pump provides a good price-to-performance balance. A peristaltic pump would likely better fit our needs, but its cost would take a significant portion of our budget and is not feasible. The higher flow rate comes at the cost of a higher current draw, but it will allow the pump to run for a shorter amount of time per watering. 
