@@ -3,7 +3,7 @@ title: Component Selection
 ---
 ### AOTF2618L
 
-![](image_placeholder.png)
+![](docs\02-Component-Selection\AOTF2618L.JPG)
 
 **30V • 100A • 0.0028Ω RDS(on) @ 4.5V**
 
@@ -19,7 +19,7 @@ title: Component Selection
 
 ### FQP30N06L
 
-![](image_placeholder.png)
+![](docs\02-Component-Selection\TO-220.JPG)
 
 **60V • 32A • 0.035Ω RDS(on) @ 5V**
 
@@ -35,7 +35,7 @@ title: Component Selection
 
 ### IRLZ34N
 
-![](image_placeholder.png)
+![](docs\02-Component-Selection\IRLZ34N-Pinout.jpg)
 
 **55V • 30A • 0.04Ω RDS(on) @ 5V**
 
@@ -51,7 +51,7 @@ title: Component Selection
 
 ### IRLZ44N
 
-![](image_placeholder.png)
+![](docs\02-Component-Selection\irlz44n.png)
 
 **55V • 47A • 0.022Ω RDS(on) @ 5V**
 
@@ -67,12 +67,12 @@ title: Component Selection
 
 ### RFP30N06LE
 
-![](image_placeholder.png)
+![](docs\02-Component-Selection\RFP30N06LE.jpg)
 
 **60V • 30A • 0.047Ω RDS(on) @ 4.5V**
 
 * ~$1.50–$2.50 each  
-* [Datasheet](https://www.onsemi.com/pdf/datasheet/rfp30n06le-d.pdf)
+* [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/843/RFP30N06LE_RF1S30N06LESM.pdf)
 
 | Pros | Cons |
 |------|------|
@@ -83,7 +83,7 @@ title: Component Selection
 
 ### STP36NF06L
 
-![](image_placeholder.png)
+![](docs\02-Component-Selection\TO-220.JPG)
 
 **60V • 30A • 0.025Ω RDS(on) @ 5V**
 
