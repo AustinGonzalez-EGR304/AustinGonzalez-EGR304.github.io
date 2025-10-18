@@ -154,6 +154,6 @@ It is a class-supplied MOSFET that can perform the duties required for this proj
 
 
 ### Choice:
-Option 1: Olimex Micro Water Pump
+Option 3: Olimex Micro Water Pump
 # Reason:
 This pump provides a good price-to-performance balance. A peristaltic pump would likely better fit our needs, but its cost would take a significant portion of our budget and is not feasible. The higher flow rate comes at the cost of a higher current draw, but it will allow the pump to run for a shorter amount of time per watering. 
