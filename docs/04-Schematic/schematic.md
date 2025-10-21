@@ -10,8 +10,15 @@ This schematic is design to support a motor driven water pump to send water to p
 ![schematic](project schematic.png){style width:"350" height:"300;"}
 **Figure 1:** Full Scematic
 
+![schematic](closeup pic.JPG){style width:"350" height:"300;"}
+**Figure 2:** MicroController and Motor 
 
+![schematic](power block.JPG){style width:"350" height:"300;"}
+**Figure 3:** Power Block 
+
+![schematic](ribbon cable.JPG){style width:"350" height:"300;"}
+**Figure 4:** Ribbon Cable
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](project schematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](project schematic.pdf)
