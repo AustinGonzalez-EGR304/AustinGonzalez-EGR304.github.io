@@ -158,6 +158,165 @@ Option 3: Olimex Micro Water Pump
 # Reason:
 This pump provides a good price-to-performance balance. A peristaltic pump would likely better fit our needs, but its cost would take a significant portion of our budget and is not feasible. The higher flow rate comes at the cost of a higher current draw, but it will allow the pump to run for a shorter amount of time per watering. 
 
+## Motor for Fertilizer dump
+<!-- Austin please note I'm not sure if they're allowed or not -->
+1. Positional Rotation DC Motor Servomotor, RC (Hobby) Incremental 4.8VDC
+
+    ![Missing FILE](<fileLocation>)
+
+    * $3.62/each
+    * [*SER0006*](https://www.digikey.com/en/products/detail/dfrobot/SER0006/7597224?gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUvqPSR01UMMaW0vsJkCTgcAjBQFTcxhHIqgslE7rbuC9zgGIagRgSxoCdmYQAvD_BwE&gclsrc=aw.ds)
+
+    | Pros                                       | Cons                |
+    | ------------------------------------------ | ------------------- |
+    |                                            |                     |
+    |                                            |                     |
+    |                                            |                     |
+    |                                            |                     |
+    |                                            |                     |
+
+1. 	ServoMotor RC 3-6V W/ 3-PIN JST
+
+    ![MISSING FILE](<fileLocation>)
+
+    * $5.96/each
+    * [*4326*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4326/10419470)
+
+    | Pros                                                              | Cons                |
+    | ------------------------------------------ | ------------------- |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+1. 	ServoMotor 3000 RPM 100V
+
+    ![MISSING FILE](<fileLocation>)
+
+    * $486.00/each
+    * [*MQMF021L1S2*](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/MQMF021L1S2/7345637)
+
+    | Pros                                                              | Cons                |
+    | ------------------------------------------ | ------------------- |
+    |                                                                   | Out of project budget |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+**Choice:** Option #:
+
+**Rationale:** 
+
+
+<!-- 
+
+## DC Motors for blending
+
+1. DC Motor Standard 6600 RPM 12VDC
+
+    ![MISSING FILE](<fileLocation>)
+
+    * $2.75/each
+    * [11696](https://www.digikey.com/en/products/detail/sparkfun-electronics/11696/6163657)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+1. GEARMOTOR 251 RPM 12V W/ENCODER
+
+    ![MISSING FILE](<fileLocation>)
+
+    * $5.96/each
+    * [FIT0186](https://www.digikey.com/en/products/detail/dfrobot/FIT0186/6588528)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+1. Left for Austin's choice
+
+    ![MISSING FILE](<fileLocation>)
+
+    * $5.96/each
+    * [text](<link>)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+**Choice:** Option #:
+
+**Rationale:** 
+
+## Motor Driver
+
+1. Brush DC Motor Controller
+
+    ![MISSING FILE](Fan8100.png){style="max-height:200px;"}
+
+    * $0.96/each
+    * [*FAN8100N*](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+1. <ItemName>
+
+    ![MISSING FILE](<fileLocation>)
+
+    * $5.96/each
+    * [text](<link>)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+1. <ItemName>
+
+    ![MISSING FILE](<fileLocation>)
+
+    * $5.96/each
+    * [text](<link>)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+    |                                                                   |                     |
+
+**Choice:** Option #:
+
+**Rationale:** 
+
+-->
+
+
 
 ### Adafruit 2941 — DC Motor in Micro Servo Body
 
