@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Austin Gonzalez Datasheet </font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Irrigation Project</font><br>
 for<br>
 <font size= "5"> Team 102 </font><br>
 
@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-* This datasheet is for the fertilizer distributionand water distribution subsection of the irrigation project. The various pages of this datasheet will walk through some of the design decisions, project criteria, and various project elements to simulate professional documentation
+* This datasheet is for the fertilizer distribution and water distribution subsection of the irrigation project. The various pages of this datasheet will walk through some of the design decisions, project criteria, and various project elements to simulate professional documentation
 
 ### Project Summary
 
