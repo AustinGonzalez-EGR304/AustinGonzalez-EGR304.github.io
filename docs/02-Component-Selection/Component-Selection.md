@@ -157,3 +157,113 @@ It is a class-supplied MOSFET that can perform the duties required for this proj
 Option 3: Olimex Micro Water Pump
 # Reason:
 This pump provides a good price-to-performance balance. A peristaltic pump would likely better fit our needs, but its cost would take a significant portion of our budget and is not feasible. The higher flow rate comes at the cost of a higher current draw, but it will allow the pump to run for a shorter amount of time per watering. 
+
+
+### Adafruit 2941 — DC Motor in Micro Servo Body
+
+![](2941-00.jpg)
+
+**4–6V • Small geared DC motor • Requires H-Bridge for forward/reverse**
+
+* ~$3.50 each  
+* [Product Page](https://www.adafruit.com/product/2941)
+
+| Pros | Cons |
+|------|------|
+| Compact and easy to mount | Low torque |
+| Runs directly from 5V rail | Requires H-bridge driver |
+| Great for prototyping | Plastic gears wear over time |
+---
+
+### Adafruit 3777 — TT Gearbox Motor
+
+![](3777-02.jpg)
+
+**3–6V • ~160mA no-load • ~1.5A stall • ~200RPM**
+
+* ~$3.95–$5.95 each  
+* [Product Page](https://www.adafruit.com/product/3777)
+
+| Pros | Cons |
+|------|------|
+| Common and inexpensive | High stall current for size |
+| Easy mounting | No built-in encoder |
+| Great for robotics / prototyping | Plastic gearbox can wear |
+---
+
+### Pololu N20 Gearmotor (210:1 LP 6V)
+
+![](0J12478.1200.jpg)
+
+**6V • ~40–70mA no-load • ~0.36–0.67A stall**
+
+* ~$12–$20 each  
+* [Product Page](https://www.pololu.com/product/2206)
+
+| Pros | Cons |
+|------|------|
+| Metal gearbox | Must avoid hard stall |
+| Extremely compact | Requires coupler for shaft |
+| Good efficiency / torque for size | Specs vary by ratio |
+---
+
+### FAN8100N — Dual H-Bridge Motor Driver
+
+![](fan8100n.JPG)
+
+**1.8–9V Motor Supply • ~3A peak/ch • Bipolar H-bridge**
+
+* ~$4–$10 each  
+* [Datasheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1021/FAN8100N%2CMTC.pdf)
+
+| Pros | Cons |
+|------|------|
+| Simple to drive from MCU | Higher voltage drop than MOSFET bridges |
+| Works well for 3–6V motors | Obsolete |
+| - | Requires heat dissipation near stall |
+---
+**Adafruit 2941 — DC Motor in Micro Servo Body**
+
+Selected for its compact servo-sized form factor, easy mounting, and compatibility with common 5V rails. It’s inexpensive for prototyping and pairs well with dual H-bridges (FAN8100N, L293D) for forward/reverse and PWM speed control. While torque is modest and gears are plastic, it meets the project’s size and simplicity goals for light-duty actuation.
+
+### DRV8833 — Dual H-Bridge Motor Driver
+
+### L293D — Dual H-Bridge Motor Driver (Through-Hole)
+
+![](DIP16_SOT38-1 Pkg.webp)
+
+**4.5–36V Motor Supply • 600mA per channel (1.2A peak) • Bipolar H-bridge**
+
+* ~$4–$8 each  
+* [Datasheet](https://www.ti.com/lit/ds/symlink/l293d.pdf)
+
+| Pros | Cons |
+|------|------|
+| DIP package (through-hole) — easy to proto | Larger voltage drop → runs warmer than MOSFET bridges |
+| Built-in clamp diodes for inductive loads | Limited to ~600mA continuous per channel |
+| Widely available, simple interface | Not ideal for very low-voltage, high-current stalls |
+---
+
+---
+
+### L298N — Dual H-Bridge Motor Driver
+
+![](l298n.jpg)
+
+**Up to 46V Motor Supply • Up to 4A combined • Bipolar H-bridge**
+
+* ~$6–$12 each  
+* [Datasheet](https://www.st.com/resource/en/datasheet/l298.pdf)
+
+| Pros | Cons |
+|------|------|
+| Very common + rugged | Large voltage drop (inefficient) |
+| Easy to prototype with | Runs hot at low motor voltages |
+| Good for learning setups | Physically bulky |
+---
+
+## Choice
+
+**FAN8100N**
+
+This driver was chosen because it can reliably power the 3–6V DC motors being considered while supporting both forward and reverse operation through a simple input interface. It provides sufficient stall-current tolerance for motors like the TT-geared model when thermals are managed. Although it is less efficient than MOSFET-based drivers and not as widely available, its DIP package, simplicity, and compatibility with low-voltage motors make it a suitable selection for prototyping.
