@@ -158,8 +158,8 @@ Option 3: Olimex Micro Water Pump
 # Reason:
 This pump provides a good price-to-performance balance. A peristaltic pump would likely better fit our needs, but its cost would take a significant portion of our budget and is not feasible. The higher flow rate comes at the cost of a higher current draw, but it will allow the pump to run for a shorter amount of time per watering. 
 
-## Motor for Fertilizer dump
-<!-- Austin please note I'm not sure if they're allowed or not -->
+
+<!-- Austin please note I'm not sure if they're allowed or not 
 1. Positional Rotation DC Motor Servomotor, RC (Hobby) Incremental 4.8VDC
 
     ![Missing FILE](<fileLocation>)
@@ -366,13 +366,15 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 | Good efficiency / torque for size | Specs vary by ratio |
 ---
 
+## Motor Controller for Both Motors
+
 ### FAN8100N — Dual H-Bridge Motor Driver
 
 ![](fan8100n.JPG)
 
 **1.8–9V Motor Supply • ~3A peak/ch • Bipolar H-bridge**
 
-* ~$4–$10 each  
+   * $0.96/each
 * [Datasheet](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1021/FAN8100N%2CMTC.pdf)
 
 | Pros | Cons |
@@ -383,7 +385,7 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 ---
 **Adafruit 2941 — DC Motor in Micro Servo Body**
 
-Selected for its compact servo-sized form factor, easy mounting, and compatibility with common 5V rails. It’s inexpensive for prototyping and pairs well with dual H-bridges (FAN8100N, L293D) for forward/reverse and PWM speed control. While torque is modest and gears are plastic, it meets the project’s size and simplicity goals for light-duty actuation.
+Selected for its compact servo-sized form factor, easy mounting, and compatibility with common 5V rails. It’s inexpensive for prototyping and pairs well with dual H-bridges (FAN8100N, L293D) for forward/reverse and PWM speed control. While torque is modest and gears are plastic, it meets the project’s size and simplicity goals for light-duty actuation. Its speed is high enough to prefrom both duties.
 
 ### DRV8833 — Dual H-Bridge Motor Driver
 
