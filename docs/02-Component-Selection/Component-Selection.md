@@ -1,6 +1,14 @@
 ---
-title: Component Selection 
+title: Component Selection
+tags:
+- tag1
+- tag2
 ---
+
+The purpose of this section is to highlight various solutions for the components used in the subsystem and identify the choices that will best suit this project.
+
+## **MOSFETS**
+
 ### AOTF2618L
 
 ![](AOTF2618L.JPG)
@@ -33,21 +41,7 @@ title: Component Selection
 | Great for 9–12V motors/pumps | May need heatsink at high duty |
 ---
 
-### IRLZ34N
 
-![](IRLZ34N-Pinout.jpg)
-
-**55V • 30A • 0.04Ω RDS(on) @ 5V**
-
-* ~$2 each  
-* [Datasheet](https://www.infineon.com/dgdl/irlz34n.pdf?fileId=5546d462533600a40153563b9b7ac710)
-
-| Pros | Cons |
-|------|------|
-| Good balance of low RDS(on) and driveability | Not as common as IRLZ44N |
-| Lower gate charge than IRLZ44N | Slightly more loss vs IRLZ44N |
-| Stable switch for medium current loads | |
----
 
 ### IRLZ44N
 
@@ -65,21 +59,6 @@ title: Component Selection
 | Great for 9V/12V inductive loads | |
 ---
 
-### RFP30N06LE
-
-![](RFP30N06LE.jpg)
-
-**60V • 30A • 0.047Ω RDS(on) @ 4.5V**
-
-* ~$2.50 each  
-* [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/843/RFP30N06LE_RF1S30N06LESM.pdf)
-
-| Pros | Cons |
-|------|------|
-| Lower dissipation at 4.5V than many older FETs | Less stocked than IRL series |
-| Fully logic-level compatible | Slightly higher RDS(on) than IRLZ44N |
-| Easy alternative to FQP30N06L | |
----
 
 ### STP36NF06L
 
@@ -97,9 +76,10 @@ title: Component Selection
 | Good thermals, safe for pumps/motors | |
 ---
 
+
 ### Choice:
 Option 1: AOFT2618L
-# Reason:
+**Reason**
 It is a class-supplied MOSFET that can perform the duties required for this project. If something were to fail during prototyping, it would be much easier to replace with minimal lead time. The cost of the component is negligible at this stage because the pricing of similar components is nearly identical. If produced on a mass scale, cost reduction efforts would focus on optimizing price-to-performance.
 
 
@@ -155,7 +135,7 @@ It is a class-supplied MOSFET that can perform the duties required for this proj
 
 ### Choice:
 Option 3: Olimex Micro Water Pump
-# Reason:
+**Reason**
 This pump provides a good price-to-performance balance. A peristaltic pump would likely better fit our needs, but its cost would take a significant portion of our budget and is not feasible. The higher flow rate comes at the cost of a higher current draw, but it will allow the pump to run for a shorter amount of time per watering. 
 
 
@@ -317,6 +297,7 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 -->
 
 
+### DC Motors
 
 ### Adafruit 2941 — DC Motor in Micro Servo Body
 
@@ -366,6 +347,11 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 | Good efficiency / torque for size | Specs vary by ratio |
 ---
 
+### Choice:
+Option 1: Adafruit 2941 — DC Motor in Micro Servo Body
+**Reason**
+Selected for its compact servo-sized form factor, easy mounting, and compatibility with common 5V rails. It’s inexpensive for prototyping and pairs well with dual H-bridges (FAN8100N, L293D) for forward/reverse and PWM speed control. While torque is modest and gears are plastic, it meets the project’s size and simplicity goals for light-duty actuation. Its speed is high enough to prefrom both duties.
+
 ## Motor Controller for Both Motors
 
 ### FAN8100N — Dual H-Bridge Motor Driver
@@ -383,9 +369,9 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 | Works well for 3–6V motors | Obsolete |
 | - | Requires heat dissipation near stall |
 ---
-**Adafruit 2941 — DC Motor in Micro Servo Body**
 
-Selected for its compact servo-sized form factor, easy mounting, and compatibility with common 5V rails. It’s inexpensive for prototyping and pairs well with dual H-bridges (FAN8100N, L293D) for forward/reverse and PWM speed control. While torque is modest and gears are plastic, it meets the project’s size and simplicity goals for light-duty actuation. Its speed is high enough to prefrom both duties.
+
+
 
 ### DRV8833 — Dual H-Bridge Motor Driver
 
@@ -422,9 +408,65 @@ Selected for its compact servo-sized form factor, easy mounting, and compatibili
 | Easy to prototype with | Runs hot at low motor voltages |
 | Good for learning setups | Physically bulky |
 ---
-
-## Choice
-
-**FAN8100N**
-
+### Choice:
+Option 1: FAN8100N — Dual H-Bridge Motor Driver
+**Reason**
 This driver was chosen because it can reliably power the 3–6V DC motors being considered while supporting both forward and reverse operation through a simple input interface. It provides sufficient stall-current tolerance for motors like the TT-geared model when thermals are managed. Although it is less efficient than MOSFET-based drivers and not as widely available, its DIP package, simplicity, and compatibility with low-voltage motors make it a suitable selection for prototyping.
+
+
+
+### Power Supply
+
+### BestCH 9V 3.0A AC Adapter
+
+![](Bestch_EGR304Jack.jpg)
+
+**9v 3A Ac Adapter**
+
+* ~$4.52 each  
+* [Product Page](https://a.co/d/hFQdNi4)
+
+| Pros | Cons |
+|------|------|
+| easy to step down | short cord|
+| circuit protections | easy to unplug |
+| 100-240v input | |
+
+---
+
+### DC 6V 3.0A AC Adapter
+
+![](6V_3A_Adap_2000x2000.webp)
+
+**6V 3A AC-to-DC Adapter**
+
+* ~$6.99 each  
+* [Product Page](https://shimmerandconfetti.com/products/6v-3a-adapter?variant=43920537256189&country=US&currency=USD)
+
+| Pros | Cons |
+|------|------|
+| Regulated 6V output | Not suitable for 9V/12V devices |
+| 100–240V AC input | Fewer interchangeable tip options |
+| Over-current/short-circuit protections | Must verify 5.5×2.1 mm barrel & polarity |
+
+---
+
+### DC 12V 3.0A AC Adapter
+
+![](walmartplug.png)
+
+**12V 3A AC-to-DC Adapter**
+
+* ~$9.68 each  
+* [Product Page](https://www.walmart.com/ip/DC-12V-3A-Power-Adapter-US-Plug-36-Watt-AC-100-240V-12Volt-Transformers-Switching-Supply-LED-Strip-Light-Camera-Wireless-Router-5-5mm-X-2-1mm-Securit/17586371906?wmlspartner=wlpa&selectedSellerId=102885789&selectedOfferId=29AA9C3CE0343B0496DF7E464F9C2932&conditionGroupCode=1)
+
+| Pros | Cons |
+|------|------|
+| Clean 12V for motors/LED strips | Can damage 6V/9V gear if mismatched |
+| 100–240V AC input | Slightly bulkier wall wart |
+| Built-in protections (OCP/OVP/SC) | Confirm 5.5×2.1 mm barrel & center-positive |
+
+### Choice:
+Option 1: BestCH 9V 3.0A AC Adapter
+**Reason**
+The BestCH 9V 3A adapter perfectly matches the system’s voltage and current needs while remaining inexpensive and reliable. Its built-in protections and stable regulated output ensure safe operation for all components, making it the most balanced and practical choice for powering the project.
