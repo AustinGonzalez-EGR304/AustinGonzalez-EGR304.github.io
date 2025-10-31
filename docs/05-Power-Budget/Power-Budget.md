@@ -11,7 +11,7 @@ After selecting components in [Component Selection](https://austingonzalez-egr30
 
 ## Conclusions
 
-From the prepare Power Budget, I found that I do not have enough power to run all components at once via the 9V 3A barrel jack. This however shouldnt cause any issues for my component since the the large power draws in the system wont run at the same time.
+From the prepared Power Budget, it was determined that the total current draw of all components would exceed the 9 V 3 A barrel-jack supply if all loads operated simultaneously. However, this estimate uses stall current values for the motors, which represent worst-case startup conditions. In practice, the motors will not all start or run at the same time, and the control logic limits concurrent operation of high-current devices (motors). As a result, the maximum expected operating current remains within the power supply’s rated capability.
 
 ## Resouces
 
