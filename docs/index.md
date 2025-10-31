@@ -29,3 +29,4 @@ for<br>
 * To review the details regarding the components used to construct the subsection, you can review it in the ["Component Selection"](https://austingonzalez-egr304.github.io/02-Component-Selection/Component-Selection/) section of the database.\
 * To review the details regarding power consumption, please visit the ["Power Budget"](https://austingonzalez-egr304.github.io/02-Component-Selection/Component-Selection/) section of the database.
 * To review the details regarding the schematic, please visit the ["schematic"](https://austingonzalez-egr304.github.io/04-Schematic/schematic/) section of the database.
+* To review the details regarding the Bill of Materials, please visit the ["BOM"](https://austingonzalez-egr304.github.io/03-BOM/BOM/) section of the database.
