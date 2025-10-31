@@ -10,18 +10,18 @@ This schematic is design to support a motor driven water pump to send water to p
 ![schematic](project schematic.jpg){style width:"350" height:"300;"}
 **Figure 1:** Full Scematic
 
-![schematic](microcontroller.JPG){style width:"350" height:"300;"}
+![schematic](Microcontrollerv2.png){style width:"350" height:"300;"}
 **Figure 2:** MicroController and Motor 
 
-![schematic](powerblock rev2.JPG){style width:"350" height:"300;"}
+![schematic](9v-5vPowerBlock.png){style width:"350" height:"300;"}
 **Figure 3:** Power Block 
 
-![schematic](connectors.JPG){style width:"350" height:"300;"}
+![schematic](2xRibbionConnector.png){style width:"350" height:"300;"}
 **Figure 4:** Ribbon Cable
 
-![schematic](ferterlizer block.JPG){style width:"350" height:"300;"}
+![schematic](FertilizerBlock.png){style width:"350" height:"300;"}
 **Figure 4:** Fertilizer Motors
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](project schematic.pdf)
+The schematic as a PDF download is available [*here*](project schematic.pdf) and ZIP file [*here*](project schematic.zip)
