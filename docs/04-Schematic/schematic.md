@@ -20,7 +20,10 @@ This schematic is design to support a motor driven water pump to send water to p
 **Figure 4:** Ribbon Cable
 
 ![schematic](FertilizerBlock.png){style width:"350" height:"300;"}
-**Figure 4:** Fertilizer Motors
+**Figure 5:** Fertilizer Motors
+
+![schematic](MotorControllerAndWaterPump.png){style width:"350" height:"300;"}
+**Figure 6:** Water Pump
 
 ## Resouces
 

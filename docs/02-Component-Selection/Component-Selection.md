@@ -15,7 +15,7 @@ The purpose of this section is to highlight various solutions for the components
 
 **30V • 100A • 0.0028Ω RDS(on) @ 4.5V**
 
-* ~ $2.00 each  
+*  $2.00 each  
 * [Datasheet](https://aosmd.com/res/data_sheets/AOTF2618L.pdf)
 
 | Pros | Cons |
@@ -31,7 +31,7 @@ The purpose of this section is to highlight various solutions for the components
 
 **60V • 32A • 0.035Ω RDS(on) @ 5V**
 
-* ~ $2 each  
+*  $2 each  
 * [Datasheet](https://www.onsemi.com/pdf/datasheet/fqp30n06l-d.pdf)
 
 | Pros | Cons |
@@ -49,7 +49,7 @@ The purpose of this section is to highlight various solutions for the components
 
 **55V • 47A • 0.022Ω RDS(on) @ 5V**
 
-* ~ $4 each  
+*  $4 each  
 * [Datasheet](https://www.infineon.com/dgdl/irlz44n.pdf?fileId=5546d462533600a40153563b9b7a262f)
 
 | Pros | Cons |
@@ -66,7 +66,7 @@ The purpose of this section is to highlight various solutions for the components
 
 **60V • 30A • 0.025Ω RDS(on) @ 5V**
 
-* ~ $3 each  
+*  $3 each  
 * [Datasheet](https://www.st.com/resource/en/datasheet/stp36nf06l.pdf)
 
 | Pros | Cons |
@@ -90,7 +90,7 @@ It is a class-supplied MOSFET that can perform the duties required for this proj
 
 **3V • ~100mA • Low head / small flow (micro-pump class)**
 
-* ~\$7.95 each  
+* $7.95 each  
 * [Product Page](https://www.adafruit.com/product/4546)
 
 | Pros | Cons |
@@ -106,7 +106,7 @@ It is a class-supplied MOSFET that can perform the duties required for this proj
 
 **5–6V • ~500mA • ~100mL/min (≈1.6 GPH) • Peristaltic**
 
-* ~\$24.95 each  
+* $24.95 each  
 * [Product Page](https://www.adafruit.com/product/3910)
 
 | Pros | Cons |
@@ -122,7 +122,7 @@ It is a class-supplied MOSFET that can perform the duties required for this proj
 
 **3–12V • up to 1–2 L/min (≈16–32 GPH) • ~1.5A draw**
 
-* ~\$3.52 each  
+* $3.52 each  
 * [Product Page](https://www.olimex.com/Products/Components/Misc/MICRO-WATER-PUMP/)
 
 | Pros | Cons |
@@ -305,7 +305,7 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 
 **4–6V • Small geared DC motor • Requires H-Bridge for forward/reverse**
 
-* ~$3.50 each  
+* $3.50 each  
 * [Product Page](https://www.adafruit.com/product/2941)
 
 | Pros | Cons |
@@ -321,7 +321,7 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 
 **3–6V • ~160mA no-load • ~1.5A stall • ~200RPM**
 
-* ~$3.95–$5.95 each  
+* $2.95 each  
 * [Product Page](https://www.adafruit.com/product/3777)
 
 | Pros | Cons |
@@ -337,7 +337,7 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 
 **6V • ~40–70mA no-load • ~0.36–0.67A stall**
 
-* ~$12–$20 each  
+* $15 each  
 * [Product Page](https://www.pololu.com/product/2206)
 
 | Pros | Cons |
@@ -371,17 +371,13 @@ Selected for its compact servo-sized form factor, easy mounting, and compatibili
 ---
 
 
-
-
-### DRV8833 — Dual H-Bridge Motor Driver
-
 ### L293D — Dual H-Bridge Motor Driver (Through-Hole)
 
 ![](DIP16_SOT38-1 Pkg.webp)
 
 **4.5–36V Motor Supply • 600mA per channel (1.2A peak) • Bipolar H-bridge**
 
-* ~$4–$8 each  
+* $8.73 each  
 * [Datasheet](https://www.ti.com/lit/ds/symlink/l293d.pdf)
 
 | Pros | Cons |
@@ -399,7 +395,7 @@ Selected for its compact servo-sized form factor, easy mounting, and compatibili
 
 **Up to 46V Motor Supply • Up to 4A combined • Bipolar H-bridge**
 
-* ~$6–$12 each  
+* $l1.78 each  
 * [Datasheet](https://www.st.com/resource/en/datasheet/l298.pdf)
 
 | Pros | Cons |
@@ -423,7 +419,7 @@ This driver was chosen because it can reliably power the 3–6V DC motors being 
 
 **9v 3A Ac Adapter**
 
-* ~$4.52 each  
+* $4.52 each  
 * [Product Page](https://a.co/d/hFQdNi4)
 
 | Pros | Cons |
@@ -440,7 +436,7 @@ This driver was chosen because it can reliably power the 3–6V DC motors being 
 
 **6V 3A AC-to-DC Adapter**
 
-* ~$6.99 each  
+* $6.99 each  
 * [Product Page](https://shimmerandconfetti.com/products/6v-3a-adapter?variant=43920537256189&country=US&currency=USD)
 
 | Pros | Cons |
@@ -457,7 +453,7 @@ This driver was chosen because it can reliably power the 3–6V DC motors being 
 
 **12V 3A AC-to-DC Adapter**
 
-* ~$9.68 each  
+* $9.68 each  
 * [Product Page](https://www.walmart.com/ip/DC-12V-3A-Power-Adapter-US-Plug-36-Watt-AC-100-240V-12Volt-Transformers-Switching-Supply-LED-Strip-Light-Camera-Wireless-Router-5-5mm-X-2-1mm-Securit/17586371906?wmlspartner=wlpa&selectedSellerId=102885789&selectedOfferId=29AA9C3CE0343B0496DF7E464F9C2932&conditionGroupCode=1)
 
 | Pros | Cons |
