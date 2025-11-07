@@ -11,7 +11,7 @@ This schematic is design to support a motor driven water pump to send water to p
 **Figure 1:** Full Scematic
 
 ![schematic](Microcontroller.png){style width:"350" height:"300;"}
-**Figure 2:** MicroController and Motor 
+**Figure 2:** Microcontroller and Motor 
 
 ![schematic](PowerBlock.png){style width:"350" height:"300;"}
 **Figure 3:** Power Block 
