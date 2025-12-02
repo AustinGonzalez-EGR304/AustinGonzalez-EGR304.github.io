@@ -7,7 +7,7 @@ title: Schematic
 This schematic is design to support a motor driven water pump to send water to plants down a common rail. This is powered by a 9v 3A power supply that is split to 5v 1.5A to the microcontroller, and 9v 3A into the motor controlled by a mosfet.
 
 
-![schematic](project schematic.png){style width:"350" height:"300;"}
+![schematic](1764709072747-24ed52c2-ee02-4ed7-8301-f02f34ccedd1_1.png){style width:"350" height:"300;"}
 **Figure 1:** Full Scematic
 
 ![schematic](MicroControllerRevFinal.png){style width:"350" height:"300;"}
