@@ -10,4 +10,4 @@ My segment of the project focuses on the fertilizer distribution and water distr
 *NOTE*: Spare connections shown on individual BOM, Team BOM represents used connections. 
 
 ## Block Diagram 
-![ Indiviual Block diagram ](Block Diagram-AMG.drawio (2).png)
+![ Indiviual Block diagram ](Block Diagram-AMG.drawio (3).png)
