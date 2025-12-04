@@ -9,4 +9,4 @@ This code was created in MPLAB X IDE for the Curiosity Nano PIC18F57Q43 to demon
 
 ## Resouces
 
-The verfification code as a ZIP download is available [*here*](CheckOff.zip)
+The verification code as a ZIP download is available [*here*](CheckOff.zip)
