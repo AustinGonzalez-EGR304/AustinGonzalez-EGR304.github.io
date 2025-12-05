@@ -78,7 +78,8 @@ The purpose of this section is to highlight various solutions for the components
 
 
 ### Choice:
-Option 1: AOFT2618L
+**Option 1: AOFT2618L**
+
 **Reason**
 It is a class-supplied MOSFET that can perform the duties required for this project. If something were to fail during prototyping, it would be much easier to replace with minimal lead time. The cost of the component is negligible at this stage because the pricing of similar components is nearly identical. If produced on a mass scale, cost reduction efforts would focus on optimizing price-to-performance.
 
@@ -134,7 +135,8 @@ It is a class-supplied MOSFET that can perform the duties required for this proj
 
 
 ### Choice:
-Option 3: Olimex Micro Water Pump
+**Option 3: Olimex Micro Water Pump**
+
 **Reason**
 This pump provides a good price-to-performance balance. A peristaltic pump would likely better fit our needs, but its cost would take a significant portion of our budget and is not feasible. The higher flow rate comes at the cost of a higher current draw, but it will allow the pump to run for a shorter amount of time per watering. 
 
@@ -189,7 +191,8 @@ This pump provides a good price-to-performance balance. A peristaltic pump would
 ---
 
 ### Choice:
-Option 1: Adafruit 2941 — DC Motor in Micro Servo Body
+**Option 1: Adafruit 2941 — DC Motor in Micro Servo Body**
+
 **Reason**
 Selected for its compact servo-sized form factor, easy mounting, and compatibility with common 5V rails. It’s inexpensive for prototyping and pairs well with dual H-bridges (FAN8100N, L293D) for forward/reverse and PWM speed control. While torque is modest and gears are plastic, it meets the project’s size and simplicity goals for light-duty actuation. Its speed is high enough to prefrom both duties.
 
@@ -245,29 +248,13 @@ Selected for its compact servo-sized form factor, easy mounting, and compatibili
 | Easy to prototype with | Runs hot at low motor voltages |
 | Good for learning setups | Physically bulky |
 ---
+
 ### Choice:
-Option 1: FAN8100N — Dual H-Bridge Motor Driver
+**Option 1: FAN8100N — Dual H-Bridge Motor Driver**
+
 **Reason**
 This driver was chosen because it can reliably power the 3–6V DC motors being considered while supporting both forward and reverse operation through a simple input interface. It provides sufficient stall-current tolerance for motors like the TT-geared model when thermals are managed. Although it is less efficient than MOSFET-based drivers and not as widely available, its DIP package, simplicity, and compatibility with low-voltage motors make it a suitable selection for prototyping.
 
-### Linear Voltage Regulator
-### FACMOGU 12V 5.0A AC Adapter (60W)
-
-![](walmartplug.png)
-
-**12V 5A AC-to-DC Power Adapter**
-
-* **$13.99 each**  
-* [Product Page](https://electroeshop.com/products/facmogu-60w-12v-5a-ac-dc-power-adapter-100-240v-ac-to-dc-12v-5a-power-suppy-12-volts-5-amps-ac-dc-table-top-adapter-60-watts-12v-5a-switching-power-adaptor-converter-5-5x2-5mm-5-5x2-1mm-dc-plug?variant=42337423228964&country=US&currency=USD&utm_source=chatgpt.com)
-
-| Pros | Cons |
-|------|------|
-| Strong 60W output → **plenty of headroom for motors, pumps, MOSFET loads** | Larger brick-style supply vs small wall wart |
-| Supports **5.5×2.1 mm + 5.5×2.5 mm** barrel jacks (very universal) | Must confirm center-positive wiring (default is CP) |
-| **100–240V AC** input (worldwide usable) | Not waterproof — indoor only |
-| Built-in protections: **OCP / OVP / Short-Circuit** | Cable thickness may limit very long-distance runs |
-
----
 
 ### LM7805 Linear Regulator (TO-220)
 
@@ -384,6 +371,7 @@ This regulator was chosen because it provides a significantly higher current cap
 
 
 ### Choice:
-Option 3: FACMOGU 12V 5.0A AC Adapter
+**Option 3: FACMOGU 12V 5.0A AC Adapter**
+
 **Reason**
 TFACMOGU 12V 5.0A AC Adapter perfectly matches the system’s voltage and current needs while remaining inexpensive and reliable. Its built-in protections and stable regulated output ensure safe operation for all components, making it the most balanced and practical choice for powering the project.
