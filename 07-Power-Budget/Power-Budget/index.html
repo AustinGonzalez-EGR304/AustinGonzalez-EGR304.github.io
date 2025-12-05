@@ -1005,11 +1005,11 @@
 <h2 id="overview">Overview</h2>
 <h2 id="overview_1">Overview</h2>
 <p>After selecting components in <a href="https://austingonzalez-egr304.github.io/02-Component-Selection/Component-Selection/">Component Selection</a> we needed to ensure that the subsection would have the power it needs with the added requirement of a safety margin. Therefore, we took the active components, meaning we excluded switches and passive components, and ensured our power supply as well as our regulators were able to get the power needed. The specifications for each piece came from their datasheet except in the case of the motor where it will only get power through the motor driver so it has different tolerances.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Power%20Budget%20T102%20EGR%20304%20-%20Sheet1.jpg" data-desc-position="bottom"><img alt="budget1" height:_300_="height:&quot;300;&quot;" src="../Power%20Budget%20T102%20EGR%20304%20-%20Sheet1.jpg" style="style" width:_350_="width:&quot;350&quot;"></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Power%20Budget%20T102%20EGR%20304.png" data-desc-position="bottom"><img alt="budget1" height:_300_="height:&quot;300;&quot;" src="../Power%20Budget%20T102%20EGR%20304.png" style="style" width:_350_="width:&quot;350&quot;"></a></p>
 <h2 id="conclusions">Conclusions</h2>
-<p>From the prepared Power Budget, it was determined that the total current draw of all components would exceed the 9 V 3 A barrel-jack supply if all loads operated simultaneously. However, this estimate uses stall current values for the motors, which represent worst-case startup conditions. In practice, the motors will not all start or run at the same time, and the control logic limits concurrent operation of high-current devices (motors). As a result, the maximum expected operating current remains within the power supply’s rated capability.</p>
+<p>From the prepared Power Budget, it was determined that the total current draw of all components are within the 12 V 5 A barrel-jack supply if all loads operated simultaneously. This estimate uses stall current values for the motors, which represent worst-case startup conditions. In practice, the motors will not all start or run at the same time, and the control logic limits concurrent operation of high-current devices (motors), but enough room for error is allocated. </p>
 <h2 id="resouces">Resouces</h2>
-<p>The power budget as a PDF download is available <a href="../Power%20Budget%20T102%20EGR%20304%20-%20Sheet1.pdf"><em>here</em></a>, and a Microsoft Excel Sheet <a href="../Power%20Budget%20T102%20EGR%20304.xlsx"><em>here</em></a>.</p>
+<p>The power budget as a PDF download is available <a href="../Power%20Budget%20T102%20EGR%20304.pdf"><em>here</em></a>, and a Microsoft Excel Sheet <a href="../Power%20Budget%20T102%20EGR%20304.xlsx"><em>here</em></a>.</p>
 
 
 
