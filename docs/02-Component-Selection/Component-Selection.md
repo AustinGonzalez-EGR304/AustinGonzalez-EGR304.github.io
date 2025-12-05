@@ -138,165 +138,6 @@ Option 3: Olimex Micro Water Pump
 **Reason**
 This pump provides a good price-to-performance balance. A peristaltic pump would likely better fit our needs, but its cost would take a significant portion of our budget and is not feasible. The higher flow rate comes at the cost of a higher current draw, but it will allow the pump to run for a shorter amount of time per watering. 
 
-
-<!-- Austin please note I'm not sure if they're allowed or not 
-1. Positional Rotation DC Motor Servomotor, RC (Hobby) Incremental 4.8VDC
-
-    ![Missing FILE](<fileLocation>)
-
-    * $3.62/each
-    * [*SER0006*](https://www.digikey.com/en/products/detail/dfrobot/SER0006/7597224?gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlhjMd1SI_TeFQt_5_XtjL5xo&gclid=CjwKCAjwr8LHBhBKEiwAy47uUvqPSR01UMMaW0vsJkCTgcAjBQFTcxhHIqgslE7rbuC9zgGIagRgSxoCdmYQAvD_BwE&gclsrc=aw.ds)
-
-    | Pros                                       | Cons                |
-    | ------------------------------------------ | ------------------- |
-    |                                            |                     |
-    |                                            |                     |
-    |                                            |                     |
-    |                                            |                     |
-    |                                            |                     |
-
-1. 	ServoMotor RC 3-6V W/ 3-PIN JST
-
-    ![MISSING FILE](<fileLocation>)
-
-    * $5.96/each
-    * [*4326*](https://www.digikey.com/en/products/detail/adafruit-industries-llc/4326/10419470)
-
-    | Pros                                                              | Cons                |
-    | ------------------------------------------ | ------------------- |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-
-1. 	ServoMotor 3000 RPM 100V
-
-    ![MISSING FILE](<fileLocation>)
-
-    * $486.00/each
-    * [*MQMF021L1S2*](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/MQMF021L1S2/7345637)
-
-    | Pros                                                              | Cons                |
-    | ------------------------------------------ | ------------------- |
-    |                                                                   | Out of project budget |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-
-**Choice:** Option #:
-
-**Rationale:** 
-
-
-<!-- 
-
-## DC Motors for blending
-
-1. DC Motor Standard 6600 RPM 12VDC
-
-    ![MISSING FILE](<fileLocation>)
-
-    * $2.75/each
-    * [11696](https://www.digikey.com/en/products/detail/sparkfun-electronics/11696/6163657)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-
-1. GEARMOTOR 251 RPM 12V W/ENCODER
-
-    ![MISSING FILE](<fileLocation>)
-
-    * $5.96/each
-    * [FIT0186](https://www.digikey.com/en/products/detail/dfrobot/FIT0186/6588528)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-
-1. Left for Austin's choice
-
-    ![MISSING FILE](<fileLocation>)
-
-    * $5.96/each
-    * [text](<link>)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-
-**Choice:** Option #:
-
-**Rationale:** 
-
-## Motor Driver
-
-1. Brush DC Motor Controller
-
-    ![MISSING FILE](Fan8100.png){style="max-height:200px;"}
-
-    * $0.96/each
-    * [*FAN8100N*](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-
-1. <ItemName>
-
-    ![MISSING FILE](<fileLocation>)
-
-    * $5.96/each
-    * [text](<link>)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-
-1. <ItemName>
-
-    ![MISSING FILE](<fileLocation>)
-
-    * $5.96/each
-    * [text](<link>)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-    |                                                                   |                     |
-
-**Choice:** Option #:
-
-**Rationale:** 
-
--->
-
-
 ### DC Motors
 
 ### Adafruit 2941 — DC Motor in Micro Servo Body
@@ -409,6 +250,84 @@ Option 1: FAN8100N — Dual H-Bridge Motor Driver
 **Reason**
 This driver was chosen because it can reliably power the 3–6V DC motors being considered while supporting both forward and reverse operation through a simple input interface. It provides sufficient stall-current tolerance for motors like the TT-geared model when thermals are managed. Although it is less efficient than MOSFET-based drivers and not as widely available, its DIP package, simplicity, and compatibility with low-voltage motors make it a suitable selection for prototyping.
 
+### Linear Voltage Regulator
+### FACMOGU 12V 5.0A AC Adapter (60W)
+
+![](walmartplug.png)
+
+**12V 5A AC-to-DC Power Adapter**
+
+* **$13.99 each**  
+* [Product Page](https://electroeshop.com/products/facmogu-60w-12v-5a-ac-dc-power-adapter-100-240v-ac-to-dc-12v-5a-power-suppy-12-volts-5-amps-ac-dc-table-top-adapter-60-watts-12v-5a-switching-power-adaptor-converter-5-5x2-5mm-5-5x2-1mm-dc-plug?variant=42337423228964&country=US&currency=USD&utm_source=chatgpt.com)
+
+| Pros | Cons |
+|------|------|
+| Strong 60W output → **plenty of headroom for motors, pumps, MOSFET loads** | Larger brick-style supply vs small wall wart |
+| Supports **5.5×2.1 mm + 5.5×2.5 mm** barrel jacks (very universal) | Must confirm center-positive wiring (default is CP) |
+| **100–240V AC** input (worldwide usable) | Not waterproof — indoor only |
+| Built-in protections: **OCP / OVP / Short-Circuit** | Cable thickness may limit very long-distance runs |
+
+---
+
+### LM7805 Linear Regulator (TO-220)
+
+![](TO-220.JPG)
+
+**5V 1A Linear Voltage Regulator**
+
+* **Typical Price:** $0.50–$1.00  
+* Standard 7805 footprint (TO-220-3)  
+
+| Pros | Cons |
+|------|------|
+| Simple 3-pin dropout regulator (**IN–GND–OUT**) | Limited to **1A max** output |
+| Very common, easy to source | Runs **very hot** at higher Vin (linear dissipation) |
+| Stable and robust, no tuning needed | Requires heatsink if >500–700 mA |
+| Great for small loads, MCU supplies | Not suitable for motors or 2–3A loads |
+
+---
+
+### LM1085-5.0 LDO Regulator (TO-220)
+
+![](TO-220.JPG)
+
+**5V 3A Low-Dropout Linear Regulator**
+
+* **Typical Price:** $2.00–$3.50  
+* TO-220-3 footprint (same pin order as 7805)  
+
+| Pros | Cons |
+|------|------|
+| Up to **3A output**, perfect 7805 upgrade | Still linear → **large heat dissipation** at high current |
+| **Low-dropout (~1.3V)** improves efficiency | Requires a **large heatsink** at >1–2A |
+| Drop-in replacement for 7805-style PCBs | Must follow datasheet capacitor requirements |
+| Very clean, noise-free 5V output | Not viable for big Vin → Vout drops |
+
+---
+
+### LM340T-5.0 Linear Regulator (TO-220)
+
+![](TO-220.JPG)
+
+**5V 1A General-Purpose Linear Regulator**
+
+* **Typical Price:** $0.70–$1.50  
+* TO-220-3 footprint, identical to LM7805 pinout  
+
+| Pros | Cons |
+|------|------|
+| Very stable fixed 5V output | Max **1A output**, same limit as LM7805 |
+| Same footprint and behavior as a 7805 | High heat dissipation at higher Vin |
+| Good line/load regulation and reliability | Requires heatsink under moderate load |
+| Great for analog/low-noise circuits | Inefficient for powering motors or pumps |
+
+---
+
+### Choice:
+**Option 2: LM1085-5.0 — 5V 3A Low-Dropout Linear Regulator**
+
+**Reason**  
+This regulator was chosen because it provides a significantly higher current capacity than the LM7805 or LM340T-5.0 while keeping the same TO-220 footprint, making it a simple drop-in upgrade for the PCB layout. Its 3A output capability supports higher-draw subsystems such as pumps, MOSFET gates under switching loads, and external peripherals that require stable 5V power.
 
 
 ### Power Supply
@@ -447,22 +366,24 @@ This driver was chosen because it can reliably power the 3–6V DC motors being 
 
 ---
 
-### DC 12V 3.0A AC Adapter
+### FACMOGU 12V 5.0A AC Adapter (60W)
 
-![](walmartplug.png)
+![](12v5asupply.png)
 
-**12V 3A AC-to-DC Adapter**
+**12V 5A AC-to-DC Power Adapter**
 
-* $9.68 each  
-* [Product Page](https://www.walmart.com/ip/DC-12V-3A-Power-Adapter-US-Plug-36-Watt-AC-100-240V-12Volt-Transformers-Switching-Supply-LED-Strip-Light-Camera-Wireless-Router-5-5mm-X-2-1mm-Securit/17586371906?wmlspartner=wlpa&selectedSellerId=102885789&selectedOfferId=29AA9C3CE0343B0496DF7E464F9C2932&conditionGroupCode=1)
+* **$13.99 each**  
+* [Product Page](https://electroeshop.com/products/facmogu-60w-12v-5a-ac-dc-power-adapter-100-240v-ac-to-dc-12v-5a-power-suppy-12-volts-5-amps-ac-dc-table-top-adapter-60-watts-12v-5a-switching-power-adaptor-converter-5-5x2-5mm-5-5x2-1mm-dc-plug?variant=42337423228964&country=US&currency=USD&utm_source=chatgpt.com)
 
 | Pros | Cons |
 |------|------|
-| Clean 12V for motors/LED strips | Can damage 6V/9V gear if mismatched |
-| 100–240V AC input | Slightly bulkier wall wart |
-| Built-in protections (OCP/OVP/SC) | Confirm 5.5×2.1 mm barrel & center-positive |
+| Strong 60W output → **plenty of headroom for motors, pumps, MOSFET loads** | Larger brick-style supply vs small wall wart |
+| Supports **5.5×2.1 mm + 5.5×2.5 mm** barrel jacks (very universal) | Must confirm center-positive wiring (default is CP) |
+| **100–240V AC** input (worldwide usable) | Not waterproof — indoor only |
+| Built-in protections: **OCP / OVP / Short-Circuit** | Cable thickness may limit very long-distance runs |
+
 
 ### Choice:
-Option 1: BestCH 9V 3.0A AC Adapter
+Option 3: FACMOGU 12V 5.0A AC Adapter
 **Reason**
-The BestCH 9V 3A adapter perfectly matches the system’s voltage and current needs while remaining inexpensive and reliable. Its built-in protections and stable regulated output ensure safe operation for all components, making it the most balanced and practical choice for powering the project.
+TFACMOGU 12V 5.0A AC Adapter perfectly matches the system’s voltage and current needs while remaining inexpensive and reliable. Its built-in protections and stable regulated output ensure safe operation for all components, making it the most balanced and practical choice for powering the project.
