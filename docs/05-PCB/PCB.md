@@ -14,10 +14,16 @@ This PCB is designed to support a motor driven water pump to send water to plant
 **Figure 2:** Back Copper
 
 ![PCB](IMG_2721.JPEG){style width:"350" height:"300;"}
-**Figure 3:** PCB
+**Figure 3:** PCB front
+
+![PCB](IMG_2723.JPEG){style width:"350" height:"300;"}
+**Figure 4:** PCB back
 
 ![PCB](IMG_2720.JPEG){style width:"350" height:"300;"}
-**Figure 4:** Assembled PCB
+**Figure 5:** Assembled PCB
+
+![PCB](IMG_2722.JPEG){style width:"350" height:"300;"}
+**Figure 6:** Assembled PCB
 
 ## Resouces
 
