@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mosfets" class="md-skip">
+        <a href="#introduction" class="md-skip">
           Skip to content
         </a>
       
@@ -361,6 +361,46 @@
     
     
       <li class="md-tabs__item">
+        <a href="../../08-Hardware%20V2.0/HardwareV2.0/" class="md-tabs__link">
+          
+  
+    
+  
+  08 Hardware V2.0
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../09-Resources/PCB/" class="md-tabs__link">
+          
+  
+    
+  
+  09 Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
         <a href="../../Appendix/" class="md-tabs__link">
           
   
@@ -586,6 +626,57 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pic-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      PIC Connections
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PIC Connections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connector-to-pic-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connector-to-PIC Mapping
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pic-pin-function-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      PIC Pin Function Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#mosfets" class="md-nav__link">
@@ -1158,6 +1249,98 @@
     
       
         
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../08-Hardware%20V2.0/HardwareV2.0/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    08 Hardware V2.0
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../09-Resources/PCB/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    09 Resources
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
           
         
       
@@ -1219,6 +1402,57 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pic-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      PIC Connections
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PIC Connections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connector-to-pic-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connector-to-PIC Mapping
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pic-pin-function-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      PIC Pin Function Summary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#mosfets" class="md-nav__link">
@@ -1560,7 +1794,146 @@
 
   <h1>Component Selection</h1>
 
+<h2 id="introduction">Introduction</h2>
 <p>The purpose of this section is to highlight various solutions for the components used in the subsystem and identify the choices that will best suit this project.</p>
+<h2 id="component-summary-table">Component Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th>Component Type</th>
+<th>Model / Name</th>
+<th>Key Specs / Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MOSFET</td>
+<td><strong>AOTF2618L</strong></td>
+<td>30V, 100A, ultra-low RDS(on)</td>
+</tr>
+<tr>
+<td>Water Pump</td>
+<td><strong>Olimex Micro Water Pump</strong></td>
+<td>Compact 5–12V pump for small fluid systems</td>
+</tr>
+<tr>
+<td>DC Motor</td>
+<td><strong>Adafruit 2941 — DC Motor in Micro Servo Body</strong></td>
+<td>DC motor with servo-style mounting</td>
+</tr>
+<tr>
+<td>Motor Controller</td>
+<td><strong>FAN8100N</strong></td>
+<td>Dual H-bridge driver for DC motors</td>
+</tr>
+<tr>
+<td>Voltage Regulator</td>
+<td><strong>LM1085-5.0</strong></td>
+<td>5V, 3A low-dropout linear regulator</td>
+</tr>
+<tr>
+<td>Power Supply</td>
+<td><strong>FACMOGU 12V 5.0A AC Adapter</strong></td>
+<td>12V regulated supply for system power</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pic-connections">PIC Connections</h2>
+<h3 id="connector-to-pic-mapping">Connector-to-PIC Mapping</h3>
+<table>
+<thead>
+<tr>
+<th>Connector</th>
+<th>Pin #</th>
+<th>PIC Pin #</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>1</td>
+<td>RB0</td>
+<td>RECEIVE–PROCESSING</td>
+</tr>
+<tr>
+<td>A</td>
+<td>2</td>
+<td>RB3</td>
+<td>SEND–REQUEST</td>
+</tr>
+<tr>
+<td>A</td>
+<td>4</td>
+<td>RA5</td>
+<td>RECEIVE–TIMER</td>
+</tr>
+<tr>
+<td>A</td>
+<td>6</td>
+<td>RA6</td>
+<td>RECEIVE–ANALOG</td>
+</tr>
+<tr>
+<td>B</td>
+<td>1</td>
+<td>RB6</td>
+<td>SEND–REQUEST</td>
+</tr>
+<tr>
+<td>B</td>
+<td>3</td>
+<td>RF1</td>
+<td>RECEIVE–SENSOR DATA</td>
+</tr>
+<tr>
+<td>B</td>
+<td>6</td>
+<td>RB2</td>
+<td>RECEIVE–PROCESSING</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="pic-pin-function-summary">PIC Pin Function Summary</h3>
+<table>
+<thead>
+<tr>
+<th>PIC Pin #</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RA3</td>
+<td>LED DIAGNOSTIC</td>
+</tr>
+<tr>
+<td>RA4</td>
+<td>H-BRIDGE PIN 2</td>
+</tr>
+<tr>
+<td>RC7</td>
+<td>H-BRIDGE PIN 1</td>
+</tr>
+<tr>
+<td>RF0</td>
+<td>H-BRIDGE PIN 12</td>
+</tr>
+<tr>
+<td>RF2</td>
+<td>H-BRIDGE PIN 11</td>
+</tr>
+<tr>
+<td>RF4</td>
+<td>MOSFET PIN 1</td>
+</tr>
+<tr>
+<td>RC1</td>
+<td>TEST BUTTON</td>
+</tr>
+</tbody>
+</table>
 <h2 id="mosfets"><strong>MOSFETS</strong></h2>
 <h3 id="aotf2618l">AOTF2618L</h3>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../AOTF2618L.JPG" data-desc-position="bottom"><img alt="" src="../AOTF2618L.JPG"></a></p>
