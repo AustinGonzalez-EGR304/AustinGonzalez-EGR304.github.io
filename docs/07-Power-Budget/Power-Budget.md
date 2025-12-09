@@ -10,6 +10,7 @@ After selecting components in [Component Selection](https://austingonzalez-egr30
 ![budget1](Power Budget T102 EGR 304.png){style width:"350" height:"300;"}
 
 ## Conclusions
+I was able to determine that I had originally sourced a voltage regulator and power supply that were not sufficient to power the system. Fortunately, this issue was caught early in the design stage, allowing us to replace them with higher-capacity components with minimal impact on the estimated budget.
 
 From the prepared Power Budget, it was determined that the total current draw of all components are within the 12 V 5 A barrel-jack supply if all loads operated simultaneously. This estimate uses stall current values for the motors, which represent worst-case startup conditions. In practice, the motors will not all start or run at the same time, and the control logic limits concurrent operation of high-current devices (motors), but enough room for error is allocated. 
 ## Resouces

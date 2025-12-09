@@ -4,8 +4,48 @@ tags:
 - tag1
 - tag2
 ---
-
+## Introduction
 The purpose of this section is to highlight various solutions for the components used in the subsystem and identify the choices that will best suit this project.
+## Component Summary Table
+
+| Component Type       | Model / Name                                      | Key Specs / Notes                          |
+|----------------------|----------------------------------------------------|---------------------------------------------|
+| MOSFET               | **AOTF2618L**                                      | 30V, 100A, ultra-low RDS(on)                |
+| Water Pump           | **Olimex Micro Water Pump**                        | Compact 5–12V pump for small fluid systems  |
+| DC Motor             | **Adafruit 2941 — DC Motor in Micro Servo Body**   | DC motor with servo-style mounting          |
+| Motor Controller     | **FAN8100N**                                       | Dual H-bridge driver for DC motors          |
+| Voltage Regulator    | **LM1085-5.0**                                     | 5V, 3A low-dropout linear regulator         |
+| Power Supply         | **FACMOGU 12V 5.0A AC Adapter**                    | 12V regulated supply for system power       |
+
+## PIC Connections
+
+### Connector-to-PIC Mapping
+
+| Connector | Pin # | PIC Pin # | Function               |
+|-----------|-------|-----------|------------------------|
+| A         | 1     | RB0       | RECEIVE–PROCESSING     |
+| A         | 2     | RB3       | SEND–REQUEST           |
+| A         | 4     | RA5       | RECEIVE–TIMER          |
+| A         | 6     | RA6       | RECEIVE–ANALOG         |
+| B         | 1     | RB6       | SEND–REQUEST           |
+| B         | 3     | RF1       | RECEIVE–SENSOR DATA    |
+| B         | 6     | RB2       | RECEIVE–PROCESSING     |
+
+---
+
+### PIC Pin Function Summary
+
+| PIC Pin # | Function            |
+|-----------|----------------------|
+| RA3       | LED DIAGNOSTIC       |
+| RA4       | H-BRIDGE PIN 2       |
+| RC7       | H-BRIDGE PIN 1       |
+| RF0       | H-BRIDGE PIN 12      |
+| RF2       | H-BRIDGE PIN 11      |
+| RF4       | MOSFET PIN 1         |
+| RC1       | TEST BUTTON          |
+
+
 
 ## **MOSFETS**
 

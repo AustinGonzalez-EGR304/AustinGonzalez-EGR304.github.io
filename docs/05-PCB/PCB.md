@@ -13,6 +13,12 @@ This PCB is designed to support a motor driven water pump to send water to plant
 ![PCB](backCopper.png){style width:"350" height:"300;"}
 **Figure 2:** Back Copper
 
+![PCB](IMG_2721.JPEG){style width:"350" height:"300;"}
+**Figure 3:** PCB
+
+![PCB](IMG_2720.JPEG){style width:"350" height:"300;"}
+**Figure 4:** Assembled PCB
+
 ## Resouces
 
 The PCB as a PDF download is available [*here*](updatedPCB.pdf) and a Gerber ZIP file [*here*](AMG102PCBREV3.zip)
