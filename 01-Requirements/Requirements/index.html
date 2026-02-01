@@ -791,7 +791,7 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>The following sections document the requirements that the this module need to fulfills to create a camera actuator that can cover near 360 degree coverage in the horizontal and 90 in the vertical direction. The actuation of the camera should be easy to control from the controller it self and should have safguards inplace ot prevent self inflicted damage. </p>
 <table>
 <thead>
 <tr>
@@ -803,28 +803,76 @@
 </thead>
 <tbody>
 <tr>
-<td>Surface mounted, 3.3V switching power regulatore</td>
-<td>3.2 Volts</td>
-<td>3.3 Volts</td>
+<td>12V power input for motor rail</td>
+<td>Accepts 11.0–13.0V</td>
+<td>Nominal 12.0V input</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Surface mounted microcontroller</td>
-<td>1 PIC or ESP</td>
-<td>8-bit PIC</td>
+<td>3.3V regulated logic supply for ESP32</td>
+<td>3.2–3.4V under load</td>
+<td>3.30V ±2%</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Wireless Communication</td>
-<td>Able to send or receive a Wi-Fi data</td>
-<td>Send and receive Wi-Fi Data to MQTT</td>
+<td>Microcontroller is ESP32-based</td>
+<td>ESP32 running firmware and issuing motor pulses</td>
+<td>ESP32 DevKit / ESP32-WROOM</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Motor type supports precise camera rotation</td>
+<td>Repeatable incremental motion without stalling</td>
+<td>2x stepper motors (Pan + Tilt)</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Dedicated driver per stepper motor</td>
+<td>send commands to motor</td>
+<td>2x stepper drivers</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Pan axis rotation control</td>
+<td>Executes commanded position change</td>
+<td>Pan motion with accel/decel ramp</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Tilt axis rotation control</td>
+<td>Executes commanded position change</td>
+<td>Tilt motion with accel/decel ramp</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Home setting capability for repeatable “zero”</td>
+<td>Finds reference after power cycle</td>
+<td>Home both axes on command/startup</td>
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td>End-of-travel protection (hardware)</td>
+<td>Detects travel limit before mechanical bind</td>
+<td>Limit switch/hall effect sensor at each end of travel (min/max)</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Team command interface (wired)</td>
+<td>Receives rotation commands reliably</td>
+<td>UART command interface to main controller</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Wireless command option (ESP32)</td>
+<td>Able to send/receive Wi-Fi data</td>
+<td>Wi-Fi command link (MQTT if required)</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+<tr>
+<td>Connectorized wiring</td>
+<td>Reliable build + maintenance</td>
+<td>Screw/JST connectors for power, motors, switches</td>
+<td style="text-align: center;">No</td>
 </tr>
 </tbody>
 </table>
