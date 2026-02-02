@@ -3,7 +3,7 @@ title: Module's Requirements
 ---
 
 ## Module Requirements
-The following sections document the requirements that the this module need to fulfills to create a camera actuator that can cover near 360 degree coverage in the horizontal and 90 in the vertical direction. The actuation of the camera should be easy to control from the controller it self and should have safguards inplace ot prevent self inflicted damage. 
+The following sections document the requirements that the this module need to fulfills to create a camera actuator that can cover near 360 degree coverage in the horizontal and 90 in the vertical direction. The actuation of the camera should be easy to control from the controller it self and should have safguards inplace to prevent self inflicted damage. 
 
 | **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** | **Stretch<br>Requirement<br>(Y-N)** |
 |-----------------------------|------------------------------|------------------------|:----------------------------------:|
