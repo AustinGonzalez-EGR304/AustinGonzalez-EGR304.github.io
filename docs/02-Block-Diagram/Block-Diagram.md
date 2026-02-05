@@ -14,4 +14,4 @@ Debugging features included in the design are on-board debug buttons, status ind
 
 ## Block Diagram 
 
-![Indivial Block diagram ](docs/02-Block-Diagram/314AustinBlockDiagram.drawio.png)
+![Indivial Block diagram ](314AustinBlockDiagram.drawio.png)
