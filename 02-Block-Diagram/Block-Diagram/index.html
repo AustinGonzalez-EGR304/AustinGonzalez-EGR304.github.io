@@ -815,8 +815,10 @@ Things to mention are:
 * sensor
 * Actuator
 * team connections
-* Power source
-* ...</p>
+* Power source</p>
+<p>The purpose of this block diagram is to illustrate the design of the Team 201 Camera Actuation subsystem and how it integrates with the broader scope of the project. This system features two stepper motors that control camera motion, allowing for nearly 180 degrees of viewing range.</p>
+<p>Both 12 V and 3.3 V power supplies are used to power the stepper motors, motor drivers, and the ESP32 microcontroller. The subsystem receives commands from the Control subsystem via the ESP32’s UART communication interface and sends digital output signals to the motor drivers to accurately control camera movement.</p>
+<p>Debugging features included in the design are on-board debug buttons, status indicator LEDs, and configurable jumpers.</p>
 <p>To get some initial formatting help, one can view <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/">"here"</a> some basic techniques.</p>
 <h2 id="example-block-diagram">Example Block Diagram</h2>
 <p>Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.</p>
