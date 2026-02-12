@@ -628,6 +628,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#esp32-s3-wroom-1-pin-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESP32-S3-WROOM-1 Pin Definitions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esp32-s3-pin-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESP32-S3 Pin Allocation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microcontroller-selection-justification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microcontroller Selection Justification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#power-management" class="md-nav__link">
     <span class="md-ellipsis">
       Power Management
@@ -792,15 +819,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#final-recommendation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Final Recommendation
-    </span>
-  </a>
   
 </li>
       
@@ -1053,6 +1071,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#esp32-s3-wroom-1-pin-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESP32-S3-WROOM-1 Pin Definitions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esp32-s3-pin-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESP32-S3 Pin Allocation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microcontroller-selection-justification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microcontroller Selection Justification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#power-management" class="md-nav__link">
     <span class="md-ellipsis">
       Power Management
@@ -1220,15 +1265,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#final-recommendation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Final Recommendation
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1251,17 +1287,16 @@
 <hr>
 <h2 id="modules-selected-major-components">Module's Selected Major Components</h2>
 <h3 id="esp32-s3-wroom-1-n4">ESP32-S3-WROOM-1-N4</h3>
-<ul>
-<li><strong>Manufacturer:</strong> Espressif  </li>
-<li><strong>Core:</strong> Dual-core Xtensa LX7  </li>
-<li><strong>Flash:</strong> 4MB (N4 variant)  </li>
-<li><strong>Operating Voltage:</strong> 3.3V  </li>
-<li><strong>GPIO:</strong> Up to 45 programmable GPIO  </li>
-<li><strong>Wireless:</strong> Wi-Fi + BLE (not required but available)  </li>
-<li><strong>Package:</strong> SMD Module (castellated edges)  </li>
-<li><strong>Approx. Price:</strong> ~<span class="arithmatex">\(5–\)</span>7  </li>
-<li><strong>Product Page</strong></li>
-</ul>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../esp32.png" data-desc-position="bottom"><img alt="esp32" src="../esp32.png"></a>
+* <strong>Manufacturer:</strong> Espressif<br>
+<em> </em><em>Core:</em><em> Dual-core Xtensa LX7<br>
+</em> <strong>Flash:</strong> 4MB (N4 variant)<br>
+<em> </em><em>Operating Voltage:</em><em> 3.3V<br>
+</em> <strong>GPIO:</strong> Up to 45 programmable GPIO<br>
+<em> </em><em>Wireless:</em><em> Wi-Fi + BLE (not required but available)<br>
+</em> <strong>Package:</strong> SMD Module (castellated edges)<br>
+<em> </em><em>Approx. Price:</em><em> ~<span class="arithmatex">\(5–\)</span>7<br>
+</em> <a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639"><strong>Product Page</strong></a></p>
 <table>
 <thead>
 <tr>
@@ -1448,6 +1483,349 @@
 </tr>
 </tbody>
 </table>
+<h2 id="esp32-s3-wroom-1-pin-definitions">ESP32-S3-WROOM-1 Pin Definitions</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>No.</th>
+<th>Type</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GND</td>
+<td>1</td>
+<td>P</td>
+<td>Ground</td>
+</tr>
+<tr>
+<td>3V3</td>
+<td>2</td>
+<td>P</td>
+<td>Power supply</td>
+</tr>
+<tr>
+<td>EN</td>
+<td>3</td>
+<td>I</td>
+<td>High: on (enables chip). Low: off (powers off). Do not leave floating.</td>
+</tr>
+<tr>
+<td>IO4</td>
+<td>4</td>
+<td>I/O/T</td>
+<td>RTC_GPIO4, GPIO4, TOUCH4, ADC1_CH3</td>
+</tr>
+<tr>
+<td>IO5</td>
+<td>5</td>
+<td>I/O/T</td>
+<td>RTC_GPIO5, GPIO5, TOUCH5, ADC1_CH4</td>
+</tr>
+<tr>
+<td>IO6</td>
+<td>6</td>
+<td>I/O/T</td>
+<td>RTC_GPIO6, GPIO6, TOUCH6, ADC1_CH5</td>
+</tr>
+<tr>
+<td>IO7</td>
+<td>7</td>
+<td>I/O/T</td>
+<td>RTC_GPIO7, GPIO7, TOUCH7, ADC1_CH6</td>
+</tr>
+<tr>
+<td>IO15</td>
+<td>8</td>
+<td>I/O/T</td>
+<td>RTC_GPIO15, GPIO15, U0RTS, ADC2_CH4, XTAL_32K_P</td>
+</tr>
+<tr>
+<td>IO16</td>
+<td>9</td>
+<td>I/O/T</td>
+<td>RTC_GPIO16, GPIO16, U0CTS, ADC2_CH5, XTAL_32K_N</td>
+</tr>
+<tr>
+<td>IO17</td>
+<td>10</td>
+<td>I/O/T</td>
+<td>RTC_GPIO17, GPIO17, U1TXD, ADC2_CH6</td>
+</tr>
+<tr>
+<td>IO18</td>
+<td>11</td>
+<td>I/O/T</td>
+<td>RTC_GPIO18, GPIO18, U1RXD, ADC2_CH7, CLK_OUT3</td>
+</tr>
+<tr>
+<td>IO8</td>
+<td>12</td>
+<td>I/O/T</td>
+<td>RTC_GPIO8, GPIO8, TOUCH8, ADC1_CH7, SUBSPICS1</td>
+</tr>
+<tr>
+<td>IO19</td>
+<td>13</td>
+<td>I/O/T</td>
+<td>RTC_GPIO19, GPIO19, U1RTS, ADC2_CH8, CLK_OUT2, USB_D-</td>
+</tr>
+<tr>
+<td>IO20</td>
+<td>14</td>
+<td>I/O/T</td>
+<td>RTC_GPIO20, GPIO20, U1CTS, ADC2_CH9, CLK_OUT1, USB_D+</td>
+</tr>
+<tr>
+<td>IO3</td>
+<td>15</td>
+<td>I/O/T</td>
+<td>RTC_GPIO3, GPIO3, TOUCH3, ADC1_CH2</td>
+</tr>
+<tr>
+<td>IO46</td>
+<td>16</td>
+<td>I/O/T</td>
+<td>GPIO46</td>
+</tr>
+<tr>
+<td>IO9</td>
+<td>17</td>
+<td>I/O/T</td>
+<td>RTC_GPIO9, GPIO9, TOUCH9, ADC1_CH8, FSPIHD, SUBSPIHD</td>
+</tr>
+<tr>
+<td>IO10</td>
+<td>18</td>
+<td>I/O/T</td>
+<td>RTC_GPIO10, GPIO10, TOUCH10, ADC1_CH9, FSPICS0, FSPIIO4, SUBSPICS0</td>
+</tr>
+<tr>
+<td>IO11</td>
+<td>19</td>
+<td>I/O/T</td>
+<td>RTC_GPIO11, GPIO11, TOUCH11, ADC2_CH0, FSPID, FSPIIO5, SUBSPID</td>
+</tr>
+<tr>
+<td>IO12</td>
+<td>20</td>
+<td>I/O/T</td>
+<td>RTC_GPIO12, GPIO12, TOUCH12, ADC2_CH1, FSPICLK, FSPIIO6, SUBSPICLK</td>
+</tr>
+<tr>
+<td>IO13</td>
+<td>21</td>
+<td>I/O/T</td>
+<td>RTC_GPIO13, GPIO13, TOUCH13, ADC2_CH2, FSPIQ, FSPIIO7, SUBSPIQ</td>
+</tr>
+<tr>
+<td>IO14</td>
+<td>22</td>
+<td>I/O/T</td>
+<td>RTC_GPIO14, GPIO14, TOUCH14, ADC2_CH3, FSPIWP, FSPIDQS, SUBSPIWP</td>
+</tr>
+<tr>
+<td>IO21</td>
+<td>23</td>
+<td>I/O/T</td>
+<td>RTC_GPIO21, GPIO21</td>
+</tr>
+<tr>
+<td>IO47</td>
+<td>24</td>
+<td>I/O/T</td>
+<td>SPICLK_P_DIFF, GPIO47, SUBSPICLK_P_DIFF</td>
+</tr>
+<tr>
+<td>IO48</td>
+<td>25</td>
+<td>I/O/T</td>
+<td>SPICLK_N_DIFF, GPIO48, SUBSPICLK_N_DIFF</td>
+</tr>
+<tr>
+<td>IO45</td>
+<td>26</td>
+<td>I/O/T</td>
+<td>GPIO45</td>
+</tr>
+<tr>
+<td>IO0</td>
+<td>27</td>
+<td>I/O/T</td>
+<td>RTC_GPIO0, GPIO0</td>
+</tr>
+<tr>
+<td>IO35</td>
+<td>28</td>
+<td>I/O/T</td>
+<td>SPIIO6, GPIO35, FSPID, SUBSPID</td>
+</tr>
+<tr>
+<td>IO36</td>
+<td>29</td>
+<td>I/O/T</td>
+<td>SPIIO7, GPIO36, FSPICLK, SUBSPICLK</td>
+</tr>
+<tr>
+<td>IO37</td>
+<td>30</td>
+<td>I/O/T</td>
+<td>SPIDQS, GPIO37, FSPIQ, SUBSPIQ</td>
+</tr>
+<tr>
+<td>IO38</td>
+<td>31</td>
+<td>I/O/T</td>
+<td>GPIO38, FSPIWP, SUBSPIWP</td>
+</tr>
+<tr>
+<td>IO39</td>
+<td>32</td>
+<td>I/O/T</td>
+<td>MTCK, GPIO39, CLK_OUT3, SUBSPICS1</td>
+</tr>
+<tr>
+<td>IO40</td>
+<td>33</td>
+<td>I/O/T</td>
+<td>MTDO, GPIO40, CLK_OUT2</td>
+</tr>
+<tr>
+<td>IO41</td>
+<td>34</td>
+<td>I/O/T</td>
+<td>MTDI, GPIO41, CLK_OUT1</td>
+</tr>
+<tr>
+<td>IO42</td>
+<td>35</td>
+<td>I/O/T</td>
+<td>MTMS, GPIO42</td>
+</tr>
+<tr>
+<td>RXD0</td>
+<td>36</td>
+<td>I/O/T</td>
+<td>U0RXD, GPIO44, CLK_OUT2</td>
+</tr>
+<tr>
+<td>TXD0</td>
+<td>37</td>
+<td>I/O/T</td>
+<td>U0TXD, GPIO43, CLK_OUT1</td>
+</tr>
+<tr>
+<td>IO2</td>
+<td>38</td>
+<td>I/O/T</td>
+<td>RTC_GPIO2, GPIO2, TOUCH2, ADC1_CH1</td>
+</tr>
+<tr>
+<td>IO1</td>
+<td>39</td>
+<td>I/O/T</td>
+<td>RTC_GPIO1, GPIO1, TOUCH1, ADC1_CH0</td>
+</tr>
+<tr>
+<td>GND</td>
+<td>40</td>
+<td>P</td>
+<td>Ground</td>
+</tr>
+<tr>
+<td>EPAD</td>
+<td>41</td>
+<td>P</td>
+<td>Ground (Exposed Pad)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="esp32-s3-pin-allocation">ESP32-S3 Pin Allocation</h2>
+<table>
+<thead>
+<tr>
+<th>Peripheral</th>
+<th>Signal</th>
+<th>GPIO</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UART to Control</td>
+<td>TX</td>
+<td>GPIO__</td>
+<td></td>
+</tr>
+<tr>
+<td>UART to Control</td>
+<td>RX</td>
+<td>GPIO__</td>
+<td></td>
+</tr>
+<tr>
+<td>Stepper Driver #1</td>
+<td>STEP</td>
+<td>GPIO__</td>
+<td>Pulse output</td>
+</tr>
+<tr>
+<td>Stepper Driver #1</td>
+<td>DIR</td>
+<td>GPIO__</td>
+<td>Direction</td>
+</tr>
+<tr>
+<td>Stepper Driver #1</td>
+<td>EN</td>
+<td>GPIO__</td>
+<td>Enable</td>
+</tr>
+<tr>
+<td>Stepper Driver #2</td>
+<td>STEP</td>
+<td>GPIO__</td>
+<td>Pulse output</td>
+</tr>
+<tr>
+<td>Stepper Driver #2</td>
+<td>DIR</td>
+<td>GPIO__</td>
+<td>Direction</td>
+</tr>
+<tr>
+<td>Stepper Driver #2</td>
+<td>EN</td>
+<td>GPIO__</td>
+<td>Enable</td>
+</tr>
+<tr>
+<td>Hall Sensor</td>
+<td>HOME</td>
+<td>GPIO__</td>
+<td>Interrupt input + debounce/filter</td>
+</tr>
+<tr>
+<td>Debug</td>
+<td>LED</td>
+<td>GPIO__</td>
+<td>Optional</td>
+</tr>
+<tr>
+<td>Debug</td>
+<td>Button</td>
+<td>GPIO__</td>
+<td>Optional</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="microcontroller-selection-justification">Microcontroller Selection Justification</h2>
+<p>The ESP32-S3-WROOM-1-N4 was selected for the Camera Actuation subsystem because it meets all functional requirements while providing additional design margin and flexibility. The subsystem requires approximately 10–12 GPIO pins to support two stepper motor drivers (STEP, DIR, and EN signals), a Hall-effect sensor for home position detection, and a UART interface for communication with the Control subsystem. The ESP32-S3 provides sufficient GPIO, hardware UART support, interrupt-capable inputs for the Hall sensor, and timing peripherals capable of generating accurate step pulses for motor control.</p>
+<p>Although wireless communication is not required, the inclusion of Wi-Fi and Bluetooth does not negatively impact system performance and allows for potential future expansion. The module operates at 3.3V, which matches the regulated logic rail of the subsystem, and its surface-mount castellated package is well suited for PCB integration. By avoiding strapping pins during GPIO allocation, reliable boot behavior can be maintained. Overall, the ESP32-S3-WROOM-1-N4 satisfies all subsystem requirements and provides a reliable, low-risk solution for motor control, sensing, and communication tasks.</p>
 <hr>
 <h2 id="power-management">Power Management</h2>
 <h3 id="ap63203wu-7">AP63203WU-7</h3>
@@ -1550,6 +1928,8 @@
 </tbody>
 </table>
 <p><strong>Selected:</strong> AP63203 — provides sufficient current headroom and lower EMI for stable PCB integration.</p>
+<p><strong>Choice:</strong><br>
+The AP63203 was selected because it provides enough current headroom for possible expansion or future design changes. It also offers relatively low EMI performance compared to many low-cost buck regulators, helping prevent signal integrity issues and noise coupling when designing the PCB for mixed motor and logic systems.</p>
 <hr>
 <h2 id="sensor">Sensor</h2>
 <h3 id="allegro-a1324-sot-23w-linear-hall-sensor">Allegro A1324 (SOT-23W Linear Hall Sensor)</h3>
@@ -1647,6 +2027,8 @@
 </tr>
 </tbody>
 </table>
+<p><strong>Selection Rationale:</strong><br>
+The TI DRV5053 was selected as the analog Hall sensor option for repeatable home position detection during camera sweep startup. Its linear analog output provides a measurable voltage proportional to magnetic field strength, allowing the ESP32 to determine the home threshold using the ADC. This enables more precise positioning compared to a digital switch by allowing firmware-based filtering, hysteresis, and calibration for consistent repeatability.</p>
 <hr>
 <h2 id="actuator">Actuator</h2>
 <h3 id="28byj-48-high-quality-stepper-motor">28BYJ-48 High Quality Stepper Motor</h3>
@@ -1729,6 +2111,8 @@
 </tr>
 </tbody>
 </table>
+<p><strong>Selection Rationale:</strong><br>
+The NEMA 14 bipolar stepper offers higher precision and smoother motion than small geared motors while keeping current modest enough for efficient 12 V drivers. Its 1.8° step angle provides fine resolution, and its compact frame fits well within a lightweight camera actuation subsystem. This makes it an ideal balance between size, precision, and power consumption.</p>
 <hr>
 <h2 id="stepper-driver-selection">Stepper Driver Selection</h2>
 <h3 id="drv8825">DRV8825</h3>
@@ -1812,9 +2196,9 @@
 </tr>
 </tbody>
 </table>
+<p><strong>Selection Rationale:</strong><br>
+The DRV8825 is a robust and widely used bipolar stepper driver well suited for the selected NEMA 14 motor (~0.4 A/phase). Its wide voltage range makes it ideal for a 12 V system, and its built-in current limiting ensures safe motor operation. Microstepping support allows smooth camera sweep motion. Due to its reliability, strong documentation base, and ease of integration with STEP/DIR control from the ESP32, it represents a low-risk and well-supported solution for this subsystem.</p>
 <hr>
-<h2 id="final-recommendation">Final Recommendation</h2>
-<p>For prototyping and reduced risk, the DRV8825 is selected due to strong 12V compatibility and ease of integration. For final PCB refinement and improved motion smoothness, DRV8834 or TMC2209 may be used.</p>
 
 
 
