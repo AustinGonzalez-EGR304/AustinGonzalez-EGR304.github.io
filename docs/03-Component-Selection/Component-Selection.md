@@ -14,7 +14,7 @@ I am responsible for the Camera Actuation subsystem. This subsystem controls two
 
 ### AP63203WU-7
 
-![alt text](AP63203.png)
+![docs/03-Component-Selection/AP63203.jpg](AP63203.jpg)
 
 * **Package:** TSOT-23-6  
 * **Output:** Fixed 3.3V  
@@ -34,7 +34,7 @@ I am responsible for the Camera Actuation subsystem. This subsystem controls two
 
 ### RT8008-33GB
 
-![alt text](SOT23.png)
+![alt text](SOT23.jpg)
 
 * **Package:** SOT-23-5  
 * **Output:** Fixed 3.3V  
