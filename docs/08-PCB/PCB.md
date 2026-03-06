@@ -15,4 +15,4 @@ my modules PCB is a 50x100mm 2 layer pcb that utlilizes the parts listed in the 
 
 ## Resouces
 
-The PCB as a Zip folder can be downloaded [*here*](EGR314CameraActuator5.0.zip).
+The PCB as a Zip folder can be downloaded [*here*](EGR314CameraActuator6.0.zip).
