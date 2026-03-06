@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Austin Gonzalez Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> The Duck</font><br>
 for<br>
 <font size= "5"> Team 201 </font><br>
 
@@ -16,18 +16,18 @@ for<br>
 
 ## Introduction
 
-* **This needs to be updated so that a reader gets an idea of the purpose of this datasheet.**
+This datasheet is for the camera actuation system as part of the camera and camera arm subteam for The Duck, a maritime inspection robot. This datasheet encompasses the design process, planning, and manufacturing of the system.
 
 ### Project Summary
-
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.]([https://github.com/EGR314-S-2026-201/EGR314-S-2026-201.github.io](https://egr314-s-2026-201.github.io/))
+The Duck is a modular maritime inspection robot that can be outfitted for multiple different mission sets, from hull inspections to recovery missions. This is accomplished through a team of 10 people working on 10 unique subsystems, which can be located at the [team report](https://github.com/EGR314-S-2026-201/EGR314-S-2026-201.github.io/). This datasheet covers the camera actuator as a part of the camera and camera arm subteam.
 
 ### My Contribution
+This datasheet covers the camera actuator as a part of the camera and camera arm subteam. The camera actuator will enable The Duck to move a camera and attached peripherals to enhance data collection and provide near real-time visual feedback from whatever mission it is assigned to.
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
-
->Continue for all the remaining/missing sections.
+* To review the requirements relating to the subsection, please visit the ["Requirements"](https://austingonzalez-egr304.github.io/AustinGonzalez-EGR314.github.io/01-Requirements/Requirements/) section of the database.
+* To review the details regarding block diagrams, please visit the ["Block Diagram"](https://austingonzalez-egr304.github.io/AustinGonzalez-EGR314.github.io/02-Block-Diagram/Block-Diagram/) section of the database.
+* To review the details regarding the components used to construct the subsection, you can review it in the ["Component Selection"](https://austingonzalez-egr304.github.io/AustinGonzalez-EGR314.github.io/03-Component-Selection/Component-Selection/) section of the database.
+* To review the details regarding the microcontroller selection, please visit the ["Microcontroller Selection"](https://austingonzalez-egr304.github.io/AustinGonzalez-EGR314.github.io/04-Microcontroller-Selection/Microcontroller%20Selection/) section of the database.
+* To review the details regarding the Bill of Materials, please visit the ["BOM"](https://austingonzalez-egr304.github.io/AustinGonzalez-EGR314.github.io/07-BOM/BOM/) section of the database.
+* To review the details regarding power consumption, please visit the ["Power Budget"](https://austingonzalez-egr304.github.io/AustinGonzalez-EGR314.github.io/05-Power-Budget/Power%20Budget/) section of the database.
+* To review the details regarding the schematic, please visit the ["Schematic"](https://austingonzalez-egr304.github.io/AustinGonzalez-EGR314.github.io/06-Schematic/schematic/) section of the database.
