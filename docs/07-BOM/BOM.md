@@ -4,6 +4,13 @@ tags:
 - tag1
 - tag2
 ---
+## Overview
+The printed circuit board (PCB) for this system incorporates more than 50 individual electronic components that support power regulation, sensing, actuation, and user interface functionality. These components range from passive devices such as capacitors, resistors, and inductors used for power filtering, signal conditioning, current limiting, and voltage stabilization to active integrated circuits that perform the primary control functions of the system. Key active components include a 3.3 V buck regulator for efficient voltage conversion, DRV8825 stepper motor drivers for controlling the hybrid bipolar stepper motors responsible for mechanical movement, and TMAG5273 3-axis Hall effect sensors used for magnetic field sensing and positional feedback. The ESP32-S3 WiFi/Bluetooth module serves as the central processing unit, enabling embedded control and wireless communication. Additional components such as LEDs, tactile switches, jumpers, and test points provide user interaction, configuration, and debugging capabilities. Power and system connectivity are supported through interfaces including a DC barrel jack, Micro-USB connector, and multiple expansion and subsystem connectors. 
+
+
+
+
+
 | **Part Name/Description**              | **Qty** | **Unit Cost**  | **Total Cost** | **Manufacturer**  | **Manufacturer #**  | **Vendor Link**                                                                            | **Datasheet Link**                                                | **Schematic Reference Designators**                |
 | :------------------------------------- | :------ | :------------- | :------------- | :---------------- | :------------------ | :----------------------------------------------------------------------------------------- | :---------------------------------------------------------------- | :------------------------------------------------- |
 | 100µF 6.3V X5R Ceramic Capacitor, 1206 | 4       | $0.55          | $2.20          | Cal-Chip          | GMC31X5R107K6R3NT   | [DigiKey](https://www.digikey.com/en/products/result?keywords=4713-GMC31X5R107K6R3NTCT-ND) | TBD                                                               | C8, C10                                            |
@@ -48,30 +55,6 @@ tags:
 | Ground Test Point                      | 1       | class provided | class provided | class provided    | —                   | class provided                                                                             | n/a                                                               | TP3                                                |
 
 
-## Overview
-Written context needs to added!
 
->Pick **ONLY** one of the two examples show below. **Remove** the other example. **REMOVE notations within the remaining section about being an example.**  
 
-## Bill of Materials (Example as Table)
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
-
-| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |10 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C2, C4, C6, C7, C8, C9, C10, C11, C12, C16
-
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
-
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials (Example as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure ##:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
-
-## Resouce
-
-The Bill of Material as a PDF download is available [*here*](PDF_For_BOM_EXAMPLE.pdf).
